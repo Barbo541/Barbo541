@@ -1,30 +1,34 @@
 # Marcos Barbosa
 
-Profissional com formação superior em Arquitetura de Dados pela UNOPAR e curso profissionalizante em Ciência de Dados pela EBAC.  
-Estudo a área de dados desde 2022, com foco em projetos de Engenharia de Dados, Ciência de Dados e MLOps.
-Estudo a área de dados desde 2022, com desenvolvimento contínuo em Python, Machine Learning, Git e ferramentas de visualização.
+Formado em Arquitetura de Dados pela UNOPAR e com curso profissionalizante em Ciência de Dados pela EBAC.  
+Desde 2022, atuo em projetos de dados com foco em Engenharia de Dados, MLOps e Ciência de Dados aplicada.  
+Atualmente, aprofundo meus conhecimentos com foco na obtenção das certificações Microsoft DP-900 (Azure Data Fundamentals) e DP-203 (Data Engineering on Azure).
 
-## Competências
 
-- Python (pandas, scikit-learn, matplotlib, Streamlit, MLflow)
-- Machine Learning supervisionado e não supervisionado
-- Engenharia de dados, pipelines, ETL e ingestão
-- Versionamento com Git e GitHub
-- Visualização com Power BI e Streamlit
-- Deploy de modelos com Render e Streamlit Cloud
+
+---
+
+## Estatísticas GitHub
+
+[![Estatísticas GitHub de Marcos](https://github-readme-stats.vercel.app/api?username=Barbo541&show_icons=true&theme=default)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+## Principais Linguagens
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Barbo541&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+---
 
 ## Projetos em Destaque
 
-- [Credit Card Fraud Detection](https://github.com/Barbo541/Credit-Card-Fraud-Detection)  
-  Projeto completo de detecção de fraudes com explicabilidade, pipeline e validação cruzada.
+[![Credit Card Fraud Detection](https://github-readme-stats.vercel.app/api/pin/?username=Barbo541&repo=Credit-Card-Fraud-Detection)](https://github.com/Barbo541/Credit-Card-Fraud-Detection)
 
-- [Credit Scoring App](https://github.com/Barbo541/credit-scoring-app-streamlit)  
-  Análise de crédito com modelo preditivo, SHAP, LightGBM e visualização interativa.
+[![Credit Scoring App](https://github-readme-stats.vercel.app/api/pin/?username=Barbo541&repo=credit-scoring-app-streamlit)](https://github.com/Barbo541/credit-scoring-app-streamlit)
 
-- [Análise Preditiva de Comportamento Financeiro](https://github.com/Barbo541/Analise-Preditiva-Comportamento-Financeiro)  
-  Previsão de comportamento com base em características de perfil e consumo.
+---
 
 ## Contato
 
-- [LinkedIn](https://www.linkedin.com/in/barbosa-data/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/barbosa-data/)
 
