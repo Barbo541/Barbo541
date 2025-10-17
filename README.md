@@ -5,7 +5,7 @@
 📚 Concluí o curso profissionalizante em **Ciência de Dados (EBAC)**, com foco em Python, Machine Learning e automação de dados.  
 
 💡 Busco constantemente unir **engenharia, análise e governança de dados**, desenvolvendo soluções que conectam infraestrutura à inteligência de negócio.  
-💼 Aprofundo meus conhecimentos com foco nas certificações **Microsoft DP-900**, **DP-203** e **AWS Data Engineer Associate (DEA-C01)**.
+💼 Aprofundo meus conhecimentos com foco nas certificações **Microsoft DP-900**, **DP-700** e **AWS Data Engineer Associate (DEA-C01)**.
 
 ---
 
