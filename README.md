@@ -1,92 +1,57 @@
-# 👋 Marcos Barbosa  
+# Marcos Barbosa
 
-🎯 Arquiteto e Engenheiro de Dados em formação — apaixonado por **pipelines escaláveis**, **MLOps** e **Big Data**.  
-🎓 Formado em **Arquitetura de Dados (UNOPAR)** e atualmente cursando **Pós-graduação em Engenharia de Dados**.  
-📚 Concluí o curso profissionalizante em **Ciência de Dados (EBAC)**, com foco em Python, Machine Learning e automação de dados.  
+**Engenharia de Dados · evolução para Arquitetura de Dados**
 
-💡 Busco constantemente unir **engenharia, análise e governança de dados**, desenvolvendo soluções que conectam infraestrutura à inteligência de negócio.  
-💼 Aprofundo meus conhecimentos com foco nas certificações **Microsoft DP-900**, **DP-700** e **AWS Data Engineer Associate (DEA-C01)**.
+Meu foco é construir pipelines de dados confiáveis, com atenção à qualidade, à operação e às decisões de arquitetura. Este portfólio reúne minha formação e entregas práticas em Engenharia de Dados, com Ciência de Dados e DevOps como conhecimentos complementares.
 
----
+## Projeto principal — airflow-dbt-postgres-elt
 
-## 🧠 Stack Técnica
+[**Pet Event Analytics Platform — conhecer o projeto**](https://github.com/Barbo541/airflow-dbt-postgres-elt)
 
-<!-- Core de dados -->
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
+Pipeline ELT que integra registros sintéticos de saúde e atividade de pets com atributos de seus responsáveis, produzindo uma tabela de eventos para consultas analíticas.
 
-<!-- Processamento & Big Data -->
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white)
+**Fluxo:** CSVs sintéticos → ingestão Python orquestrada pelo Airflow → PostgreSQL → transformações e testes dbt → tabela analítica com 1.878 eventos na base de referência.
 
-<!-- Cloud & Lakehouse -->
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![S3](https://img.shields.io/badge/AWS%20S3-569A31?logo=amazons3&logoColor=white)
-![Glue](https://img.shields.io/badge/AWS%20Glue-232F3E?logo=amazonaws&logoColor=white)
-![Athena](https://img.shields.io/badge/AWS%20Athena-232F3E?logo=amazonaws&logoColor=white)
+**Stack:** Python, SQL, Apache Airflow, dbt, PostgreSQL, Docker Compose e GitHub Actions.
 
-<!-- Orquestração -->
-![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![Prefect](https://img.shields.io/badge/Prefect-0A1633?logo=prefect&logoColor=white)
+O trabalho de engenharia demonstra:
 
-<!-- IaC -->
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
+- Ingestão atômica das tabelas brutas, com rollback em caso de falha.
+- Contratos de entrada e testes de qualidade, relacionamentos e reconciliação dos dados.
+- Execução repetível e validação ponta a ponta em ambiente descartável.
+- Integração contínua com lint, testes Python e execução real do pipeline.
+- Logs de ingestão, documentação operacional e decisões de performance apoiadas em medições.
 
-<!-- MLOps & Qualidade -->
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
-![Great Expectations](https://img.shields.io/badge/Great%20Expectations-3B3B3B)
+**V1 finalizada e congelada.** A validação documentada registra 18 testes Python e 42 resultados dbt aprovados: 4 modelos, 36 testes de dados e 2 testes unitários, além da repetibilidade e da recuperação após falha forçada.
 
-<!-- Apps & Dev -->
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+[CI aprovado do commit 06a8853](https://github.com/Barbo541/airflow-dbt-postgres-elt/actions/runs/43599810089) · [Arquitetura](https://github.com/Barbo541/airflow-dbt-postgres-elt/blob/main/docs/architecture.md) · [Operação](https://github.com/Barbo541/airflow-dbt-postgres-elt/blob/main/docs/runbook.md) · [Performance](https://github.com/Barbo541/airflow-dbt-postgres-elt/blob/main/docs/performance.md)
 
----
+O escopo é local, em lote e em um único nó, com dados sintéticos. O projeto foi derivado de uma implementação de Vincent Crescente sob licença MIT; o trabalho posterior concentra-se em robustez, testes, segurança e operação. A origem e as contribuições estão descritas no [NOTICE](https://github.com/Barbo541/airflow-dbt-postgres-elt/blob/main/NOTICE.md).
 
-**Resumo por categoria:**  
-- **Linguagens & Dados:** Python, Pandas, NumPy, SQL  
-- **Processamento:** PySpark (Spark), Databricks  
-- **Cloud & Lakehouse:** AWS (S3, Glue, Athena)  
-- **Orquestração:** Airflow / Prefect  
-- **IaC:** Terraform  
-- **MLOps & Qualidade:** scikit-learn, MLflow, Great Expectations  
-- **Apps & Dev:** Streamlit, Docker, Git/GitHub  
+## Competências demonstradas no portfólio
 
----
+| Área | Aplicação prática |
+| --- | --- |
+| Python e SQL | Ingestão, transformação, validação e consultas |
+| Airflow e dbt | Orquestração, dependências, modelos e testes |
+| PostgreSQL | Transações, integridade e organização dos dados |
+| Docker Compose | Ambiente local reproduzível |
+| Git e GitHub Actions | Versionamento, pull requests e integração contínua |
+| Qualidade e operação | Contratos, rollback, logs, troubleshooting e documentação |
 
-## 📊 Estatísticas GitHub  
+## Formação concluída
 
-![Estatísticas GitHub](https://github-readme-stats.vercel.app/api?username=Barbo541&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Barbo541&layout=compact&theme=tokyonight)
+- Pós-graduação em Engenharia de Dados.
+- Pós-graduação em DevOps.
+- Formação em Arquitetura de Dados.
+- Formação profissionalizante em Ciência de Dados — EBAC.
 
----
+## Evolução profissional
 
-## 🚀 Projetos em Destaque  
+Meu próximo foco é ampliar a prática em cloud, Spark e modelagem dimensional, além de aprofundar observabilidade e otimização de pipelines. São objetivos de desenvolvimento alinhados à evolução para Arquitetura de Dados.
 
-🔹 [**Ouvidoria Smart Insights**](https://github.com/Barbo541/ouvidoria-smart-insights-like)  
-Pipeline completo de dados e MLOps aplicado a análise de reclamações e sugestões. Inclui ETL, modelagem supervisionada e dashboard em Streamlit.  
-**Stack:** Python, Pandas, MLflow, AWS, Streamlit  
+## Idiomas e contato
 
-🔹 [**Credit Scoring App**](https://github.com/Barbo541/credit-scoring-app-streamlit)  
-Aplicativo interativo para previsão de inadimplência com explicabilidade e métricas.  
-**Stack:** Python, scikit-learn, Streamlit, SHAP  
+Português nativo · Inglês básico
 
-🔹 [**Credit Card Fraud Detection**](https://github.com/Barbo541/Credit-Card-Fraud-Detection)  
-Modelo de detecção de fraudes financeiras com explicabilidade via SHAP e validação cruzada.  
-**Stack:** Python, Pandas, RandomForest, SHAP  
-
----
-
-## 🌐 Contato  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/barbosa-data)  
-📍 São Paulo - SP  
-
----
-
-> “Engenharia de dados é o elo invisível entre informação e impacto — e é nele que eu construo minhas pontes.”
-
+[LinkedIn](https://www.linkedin.com/in/barbosa-data)
